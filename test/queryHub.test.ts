@@ -1,4 +1,4 @@
-import { queryHub } from '../src';
+// import { queryHub } from '../src';
 
 describe('queryHub', () => {
   it('stores response if mock does not exist', () => {});
