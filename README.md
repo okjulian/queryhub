@@ -10,9 +10,9 @@ Records your GraphQL queries and replays them during consequent test runs
 ## Use cases
 
 - [x] End to end testing with single page apps using Playwright
-- [ ] Mock server side requests
+- [x] Mock server side requests
   - [x] NextJS apps
-  - [] NodeJS APIs
+  - [x] NodeJS APIs
 
 ## Installation
 
@@ -29,7 +29,7 @@ import { test, expect } from '@playwright/test';
 import { queryHub } from 'queryhub';
 
 test('lists products', async ({ page }) => {
-  const hub = await queryHub(page, name: 'products', url: /graphcms.com/ });
+  const hub = await queryHub({ page, name: 'products', url: /graphcms.com/ });
   await page.goto('http://localhost:3000', { waitUntil: 'networkidle' });
   const textContent = await page.innerText('ul');
 

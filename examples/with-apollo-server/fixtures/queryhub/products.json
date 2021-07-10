@@ -1,0 +1,55 @@
+{
+  "https://api-eu-central-1.graphcms.com/v2/ck8sn5tnf01gc01z89dbc7s0o/master": {
+    "{\"query\":\"{\\n  products {\\n    id\\n    description\\n    name\\n    price\\n    slug\\n  }\\n}\\n\",\"variables\":{}}": {
+      "headers": {
+        "age": "245",
+        "alt-svc": "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400",
+        "cache-control": "no-cache",
+        "cf-cache-status": "HIT",
+        "cf-ray": "66c33096da724d2f-GRU",
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-type": "application/json",
+        "date": "Fri, 09 Jul 2021 17:14:38 GMT",
+        "etag": "W/\"858a232e6dd72ae88c67f292f5de72376553b556cf8ae3f64caa70cd857bb053\"",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "nel": "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v2?s=eUs9V8oACGusFqbPFJ%2FHLw%2BMZVp1vQd59dx%2FjC%2BzfxZFf%2FWEhFdoID%2BChwo1%2BtZnpbxm3P0%2Bw%2BxNNM6eOLwyNuj2t%2F4QDCNYGr%2BW9aGdbaqNzrrjxW0W4ZWPkVSZYljHLRAgfWiDJ3zscQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "server": "cloudflare",
+        "transfer-encoding": "chunked",
+        "vary": "Origin, Accept-Encoding",
+        "x-cdn-cache-status": "optimize,hit",
+        "x-gcms-query-complexity": "100.000000",
+        "x-request-id": "ckqwlhlbcrftk0b51rz4gmml1"
+      },
+      "body": {
+        "data": {
+          "products": [
+            {
+              "id": "ck8snb68g015q01582eneqegi",
+              "description": "Awesome GraphCMS T-shirt, available in a variety of colors, and super comfortable. Rep your favourite Headless CMS in style.",
+              "name": "Long Sleeve Tee 2",
+              "price": 1900,
+              "slug": "long-sleeve-tee"
+            },
+            {
+              "id": "ck8snbwgw015n015710srq03g",
+              "description": "Just as awesome and comfortable as the Long Sleeved Tee, only with half the sleeves.",
+              "name": "Short Sleeve Tee",
+              "price": 1900,
+              "slug": "short-sleeve-tee"
+            },
+            {
+              "id": "ckckfm4io04460165s8q38b4h",
+              "description": "Awesome new GraphCMS cap!",
+              "name": "Cap",
+              "price": 200,
+              "slug": "cap"
+            }
+          ]
+        }
+      },
+      "status": 200
+    }
+  }
+}
